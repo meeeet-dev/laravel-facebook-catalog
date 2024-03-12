@@ -1,12 +1,5 @@
 # Laravel Facebook Catalog Package that exports formatted XML data feed
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/meeeet-dev/laravel-facebook-catalog.svg?style=flat-square)](https://packagist.org/packages/meeeet-dev/laravel-facebook-catalog)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/meeeet-dev/laravel-facebook-catalog/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/meeeet-dev/laravel-facebook-catalog/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/meeeet-dev/laravel-facebook-catalog/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/meeeet-dev/laravel-facebook-catalog/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/meeeet-dev/laravel-facebook-catalog.svg?style=flat-square)](https://packagist.org/packages/meeeet-dev/laravel-facebook-catalog)
-
-Laravel Facebook Catalog Package that exports formatted XML data feed.
-
 ## Installation
 
 You can install the package via composer:
