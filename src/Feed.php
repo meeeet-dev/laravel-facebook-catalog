@@ -117,6 +117,6 @@ class Feed
     {
         return response()->streamDownload(function () {
             echo $this->generate();
-        }, 'feed-' . time() . '.xml');
+        }, 'feed-'.time().'.xml');
     }
 }
