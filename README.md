@@ -23,7 +23,7 @@ LaravelFacebookCatalog::addItem([
     'title' => 'Foo bar',
     'image_link' => 'https://example.shop/images/foo-bar.png',
     'description' => 'Foo bar best product',
-    'availability' => 'new',
+    'availability' => 'in stock',
     "price" => 99.99,
     'brand' => 'Foo brand',
     'condition' => 'new',
