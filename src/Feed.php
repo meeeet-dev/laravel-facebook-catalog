@@ -112,4 +112,11 @@ class Feed
     {
         return response($this->generate())->header('Content-Type', 'text/xml');
     }
+
+    public function download()
+    {
+        return response()->streamDownload(function () {
+            echo $this->generate();
+        }, 'feed-' . time() . '.xml');
+    }
 }
