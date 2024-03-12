@@ -1,6 +1,6 @@
 <?php
 
-use Donmbelembe\LaravelFacebookCatalog\LaravelFacebookCatalog;
+use MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalog;
 use function Spatie\Snapshots\assertMatchesXmlSnapshot;
 
 it('throws an exception when there is a missing required attributes', function () {

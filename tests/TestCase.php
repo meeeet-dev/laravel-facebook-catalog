@@ -1,8 +1,8 @@
 <?php
 
-namespace Donmbelembe\LaravelFacebookCatalog\Tests;
+namespace MeeeetDev\LaravelFacebookCatalog\Tests;
 
-use Donmbelembe\LaravelFacebookCatalog\LaravelFacebookCatalogServiceProvider;
+use MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalogServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Donmbelembe\\LaravelFacebookCatalog\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'MeeeetDev\\LaravelFacebookCatalog\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

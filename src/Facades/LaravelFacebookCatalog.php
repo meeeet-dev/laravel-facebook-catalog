@@ -1,16 +1,16 @@
 <?php
 
-namespace Donmbelembe\LaravelFacebookCatalog\Facades;
+namespace MeeeetDev\LaravelFacebookCatalog\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Donmbelembe\LaravelFacebookCatalog\LaravelFacebookCatalog
+ * @see \MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalog
  */
 class LaravelFacebookCatalog extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Donmbelembe\LaravelFacebookCatalog\LaravelFacebookCatalog::class;
+        return \MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalog::class;
     }
 }

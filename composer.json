@@ -1,14 +1,19 @@
 {
-    "name": "donmbelembe/laravel-facebook-catalog",
+    "name": "meeeet-dev/laravel-facebook-catalog",
     "type": "library",
     "description": "Laravel Facebook Catalog Package that exports formatted XML data feed",
     "keywords": [
         "laravel",
         "facebook-catalog"
     ],
-    "homepage": "https://github.com/donmbelembe/laravel-facebook-catalog",
+    "homepage": "https://github.com/meeeet-dev/laravel-facebook-catalog",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Meeeet Dev",
+            "email": "meeeet.dev@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "don mbelembe",
             "email": "bizroy678@gmail.com",
@@ -16,7 +21,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^7.0|^8.0",
         "illuminate/contracts": "^10.0",
         "spatie/array-to-xml": "^3.1",
         "spatie/laravel-package-tools": "^1.14.0"
@@ -37,13 +42,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Donmbelembe\\LaravelFacebookCatalog\\": "src",
-            "Donmbelembe\\LaravelFacebookCatalog\\Database\\Factories\\": "database/factories"
+            "MeeeetDev\\LaravelFacebookCatalog\\": "src",
+            "MeeeetDev\\LaravelFacebookCatalog\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Donmbelembe\\LaravelFacebookCatalog\\Tests\\": "tests"
+            "MeeeetDev\\LaravelFacebookCatalog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,10 +68,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Donmbelembe\\LaravelFacebookCatalog\\LaravelFacebookCatalogServiceProvider"
+                "MeeeetDev\\LaravelFacebookCatalog\\LaravelFacebookCatalogServiceProvider"
             ],
             "aliases": {
-                "LaravelFacebookCatalog": "Donmbelembe\\LaravelFacebookCatalog\\Facades\\LaravelFacebookCatalog"
+                "LaravelFacebookCatalog": "MeeeetDev\\LaravelFacebookCatalog\\Facades\\LaravelFacebookCatalog"
             }
         }
     },

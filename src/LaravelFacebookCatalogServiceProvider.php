@@ -1,6 +1,6 @@
 <?php
 
-namespace Donmbelembe\LaravelFacebookCatalog;
+namespace MeeeetDev\LaravelFacebookCatalog;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
