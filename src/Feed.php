@@ -49,6 +49,11 @@ class Feed
         $this->link = $link;
     }
 
+    public function setCurrency($currency = 'USD')
+    {
+        $this->currency = $currency;
+    }
+
     public function addItem($item)
     {
         $product = [];
