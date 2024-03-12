@@ -2,8 +2,8 @@
 
 namespace MeeeetDev\LaravelFacebookCatalog\Tests;
 
-use MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalogServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use MeeeetDev\LaravelFacebookCatalog\LaravelFacebookCatalogServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
