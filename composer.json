@@ -24,6 +24,7 @@
         "php": "^7.0|^8.0",
         "illuminate/contracts": "^10.0",
         "spatie/array-to-xml": "^3.1",
+        "spatie/phpunit-snapshot-assertions": "^5.0",
         "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
