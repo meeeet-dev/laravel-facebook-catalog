@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-facebook-catalog` will be documented in this file.
 
+## v1.4 - 2025-07-21
+
+Support for Laravel 12
+
 ## v1.3 - Currency Modification added - 2024-03-12
 
 Currency Modification added and Expected Array updated in Readme
